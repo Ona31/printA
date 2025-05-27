@@ -268,10 +268,10 @@ img{
       }
     main .categories .search{
         padding: 0;
-        width: 100%;
-        margin: 0 1rem;
+        width: 85%;
+       
     }
-    main .categories .search input{
+    main .categories .search i{
         padding: 1rem;
        
     }
