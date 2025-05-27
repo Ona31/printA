@@ -247,6 +247,7 @@ img{
        right: 0;
        background-color: var(--var-primery-color);
        padding: 1rem;
+       border-radius: 5px;
     
       
     }
@@ -257,6 +258,14 @@ img{
     }
     .logos .nav .ul li a{
         color: var(--var-bg-color);
+        transition: 0.3s;
+    }
+    .logos .nav .ul li a:hover{
+        color: var(--var-bg-color);
+        transform: scale(1.1);
+        color: var(--var-secondary-color);
+        background-color: var(--var-bg-color);
+        border-radius: 10px;
     }
     main{
         padding:2rem 0 0;
