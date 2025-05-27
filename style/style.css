@@ -279,7 +279,7 @@ img{
     flex-direction: row;
     overflow-X: auto;
     padding: 0 2rem;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
 }
 main .categories .search{
