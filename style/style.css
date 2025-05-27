@@ -267,8 +267,8 @@ img{
         justify-content: center;
       }
     main .categories .search{
-        width: 95%;
-        
+        padding: 0;
+        width: 100%;
     }
      main{
         display: block;
@@ -302,6 +302,9 @@ h1{
 }
 h1{
     font-size: 25px;
+    padding: 0 1rem;
+}
+.Container{
     padding: 0 1rem;
 }
 .Container .Affichages{
