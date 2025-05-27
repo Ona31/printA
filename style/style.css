@@ -347,10 +347,11 @@ h1{
     }
     .commandez {
         transform:translateY(200px) ;
+          height: 50vh;
     }
     .commandez a{
         padding: 0.8rem 1rem;
-        font-size: small;
+        font-size: large;
     }
     .description h3,p{
     font-size:14px;
