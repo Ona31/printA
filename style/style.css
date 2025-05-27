@@ -260,13 +260,14 @@ img{
         color: var(--var-bg-color);
         transition: 0.3s;
         padding: 0.5rem;
+        font-size: 20px;
     }
     .logos .nav .ul li a:hover{
         color: var(--var-bg-color);
         transform: scale(1.1);
         color: var(--var-secondary-color);
         background-color: var(--var-bg-color);
-        border-radius: 10px;
+        border-radius: 5px;
     }
     main{
         padding:2rem 0 0;
