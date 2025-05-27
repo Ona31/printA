@@ -279,7 +279,6 @@ img{
     flex-direction: row;
     overflow-X: auto;
     padding: 0 2rem;
-    justify-content: center;
     width: 100%;
 }
 main .categories .search{
@@ -291,13 +290,14 @@ main .categories .search{
     justify-content: center;
     text-align: center;
     padding: 0.5rem 0;
+    border: 1px solid var(--var-border-color);
 }
 h1{
     font-size: 25px;
     padding: 0 1rem;
 }
 .Container .Affichages{
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     }
     .part-produit{
         height: 100%;
