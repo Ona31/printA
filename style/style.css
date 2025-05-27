@@ -266,9 +266,14 @@ img{
       main .categories {
         justify-content: center;
       }
+      .ser{
+        width: 100%;
+        padding:0 1rem;
+        display: flex;
+      }
     main .categories .search{
         padding: 0;
-        width: 95%;
+       
        
     }
     main .categories .search i{
