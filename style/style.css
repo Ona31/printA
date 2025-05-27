@@ -246,7 +246,7 @@ img{
        bottom: 0;
        right: 0;
        background-color: var(--var-primery-color);
-       padding: 1rem;
+       padding: 0.1rem;
        border-radius: 5px;
     
       
@@ -259,6 +259,7 @@ img{
     .logos .nav .ul li a{
         color: var(--var-bg-color);
         transition: 0.3s;
+        padding: 1rem;
     }
     .logos .nav .ul li a:hover{
         color: var(--var-bg-color);
