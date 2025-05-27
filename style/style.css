@@ -252,7 +252,7 @@ img{
     }
     .logos .nav .ul{
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 1rem;
     
     }
     .logos .nav .ul li a{
@@ -293,6 +293,9 @@ main .categories .search{
     border: 1px solid var(--var-border-color);
     border-radius: 50px;
   
+}
+h1{
+    display: none;
 }
 .detail-categorie{
     display: none;
