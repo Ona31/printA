@@ -348,4 +348,7 @@ h1{
     .commandez {
         transform:translateY(200px) ;
     }
+    .description h3,p{
+    font-size:14px;
+}
 }
