@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+::-webkit-scrollbar {
+    display: none; /* Masquer la barre de défilement */
+}
 /*Declaration des varable de couleur dans la balise html*/
 html{
     --var-primery-color:#4729c2;
@@ -134,10 +136,14 @@ input::placeholder{
  ul li a{
     text-decoration: none;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
     color: var(--var-li-color);
     gap: 0.5rem;
     font-size: 14px;
     font-weight: 600;
+    
 }
 /* Contenair */
 
@@ -212,4 +218,68 @@ img{
 }
 .description h3,p{
     font-size: smaller;
+}
+
+/*media query*/
+
+@media screen and (max-width: 768px){
+   
+
+    header{
+        padding: 0.5rem 2rem;
+    }
+    header .logos {
+        gap: 2rem;
+    }
+    header .logos .logo{
+        font-size: 25px;
+    }
+    header nav .ul{
+        gap: 1rem;
+    }
+    main{
+        padding:2rem 0 0;
+    }
+    main .categories .search{
+        width: 100%;
+        padding:0rem 1rem;
+    }
+     main{
+        display: block;
+    }
+   
+  .all-categories ul,.detail-categorie ul{
+   
+    flex-direction: row;
+    overflow-X: auto;
+    padding: 0 2rem;
+    justify-content: space-between;
+    width: 100%;
+}
+main .categories .search{
+    margin: 0 1rem;
+    padding: 0;
+}
+  .all-categories ul li,.detail-categorie ul li{
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+h1{
+    font-size: 25px;
+    padding: 0 1rem;
+}
+.Container .Affichages{
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .part-produit{
+        height: 100%;
+    }
+    img{
+        height: 30vh;
+    }
+    .commandez {
+        transform:translateY(200px) ;
+    }
 }
