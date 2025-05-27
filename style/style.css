@@ -268,11 +268,11 @@ img{
       }
     main .categories .search{
         padding: 0;
-        width: 85%;
+        width: 95%;
        
     }
     main .categories .search i{
-        padding: 1rem;
+        font-size: 20px;
        
     }
      main{
