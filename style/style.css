@@ -36,6 +36,7 @@ header{
     top: 0;
     background-color: white;
     box-shadow: 0px 0px 1px rgb(157, 157, 157);
+    z-index: 1000;
 }
 header .logos {
     display: flex;
@@ -164,6 +165,7 @@ input::placeholder{
     overflow-y: auto;
     height: 80vh;
     scrollbar-width:none;
+    
 }
 .part-produit{
     display: flex;
@@ -172,6 +174,7 @@ input::placeholder{
     border-radius: 5px;
     box-shadow: 0px 0px 1px rgb(157, 157, 157);
     transition: 0.3s ease-in-out;
+   
 }
 .cart-produit {
     position: relative;
@@ -234,15 +237,38 @@ img{
     header .logos .logo{
         font-size: 25px;
     }
-    header nav .ul{
+       header nav .ul{
         gap: 1rem;
+    }
+    header .logos nav{
+       position: fixed;
+       display: flex;
+       bottom: 0;
+       right: 0;
+       background-color: var(--var-primery-color);
+       padding: 1rem;
+    
+      
+    }
+    .logos .nav .ul{
+        flex-direction: column;
+        gap: 0.5rem;
+    
+    }
+    .logos .nav .ul li a{
+        color: var(--var-bg-color);
     }
     main{
         padding:2rem 0 0;
-    }
-    main .categories .search{
+        z-index: 100;
         width: 100%;
-        padding:0rem 1rem;
+    }
+      main .categories {
+        justify-content: center;
+      }
+    main .categories .search{
+        width: 95%;
+        
     }
      main{
         display: block;
