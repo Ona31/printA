@@ -299,6 +299,9 @@ img{
      main{
         display: block;
     }
+      .all-categories{
+        border: none;
+      }
    
   .all-categories ul{
    
