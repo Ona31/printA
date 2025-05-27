@@ -274,7 +274,7 @@ img{
         display: block;
     }
    
-  .all-categories ul,.detail-categorie ul{
+  .all-categories ul{
    
     flex-direction: row;
     overflow-X: auto;
@@ -285,12 +285,17 @@ main .categories .search{
     margin: 0 1rem;
     padding: 0;
 }
-  .all-categories ul li,.detail-categorie ul li{
+  .all-categories ul li{
     flex: 1;
     justify-content: center;
     text-align: center;
-    padding: 0.5rem 0;
+    padding: 0.5rem ;
     border: 1px solid var(--var-border-color);
+    border-radius: 50px;
+  
+}
+.detail-categorie{
+    display: none;
 }
 h1{
     font-size: 25px;
