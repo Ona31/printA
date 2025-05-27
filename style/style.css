@@ -348,6 +348,10 @@ h1{
     .commandez {
         transform:translateY(200px) ;
     }
+    .commandez a{
+        padding: 0.8rem 1rem;
+        font-size: small;
+    }
     .description h3,p{
     font-size:14px;
 }
