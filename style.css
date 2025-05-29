@@ -391,15 +391,12 @@ img{
         right:  1rem;
         
     }
-    .logos .nav .ul .home::after{
-         content: "\f0c9"; /* Unicode de l'icône fa-bars */
-      font-family: "Font Awesome 6 Free";
-      font-weight: 900; /* Important pour afficher l'icône "solid" */
-      position: absolute;
-      right: 0;
-      top: 0;
-      color: black;}
-        
+    
+    main{
+        padding:2rem 0 0;
+        z-index: 100;
+        width: 100%;
+    }
       main .categories {
         justify-content: center;
       }
