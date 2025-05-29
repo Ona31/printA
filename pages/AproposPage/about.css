@@ -85,6 +85,14 @@ body {
         width: 100%;
         padding: 2rem;
     }
+    .apropos-page .pro{
+        font-size: 6rem;
+    }
+    .apropos-page h2{
+        font-size: 1.5rem;
+        width: 100%;
+        padding: 2rem;
+    }
     .apropos-page p{
         width: 100%;
         padding: 2rem;
