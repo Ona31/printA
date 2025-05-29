@@ -75,6 +75,9 @@ body {
     font-weight: 600;
     padding: 0.9rem 1rem;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid var(--var-border-color);
     transition: all 0.3s ease-in-out;
 }
@@ -142,7 +145,7 @@ body {
     }
     .social-links{
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
     gap: 1rem;
     }
   
