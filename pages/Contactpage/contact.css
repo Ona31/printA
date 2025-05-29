@@ -148,7 +148,7 @@ body {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
-    .social-links li{
+    .social-links li:nth-child(7){
         grid-row: 1/-1;
     }
   
