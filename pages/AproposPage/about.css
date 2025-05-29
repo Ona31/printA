@@ -106,6 +106,7 @@ body {
     .apropos-page p{
         width: 100%;
         padding: 2rem;
+        text-align: start;
     }
   
 }
