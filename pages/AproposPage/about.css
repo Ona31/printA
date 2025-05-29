@@ -95,6 +95,9 @@ body {
     .apropos-page .pro{
         font-size: 6rem;
     }
+    .apropos-page .pro i{
+        font-size: 6rem;
+    }
     .apropos-page h2{
         font-size: 1.5rem;
         width: 100%;

@@ -129,6 +129,9 @@ body {
     .contact-page .pro{
         font-size: 6rem;
     }
+    .contact-page .pro i{
+        font-size: 6rem;
+    }
     .contact-page h2{
         font-size: 1.5rem;
     }  
