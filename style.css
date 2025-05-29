@@ -316,8 +316,9 @@ img{
     display: none;
    }
     .navbar{
-        padding: 0.5rem 1rem;
-        flex-direction: column;
+        padding: 2rem 1rem;
+        display: flex;
+        justify-content: start;
         align-items: center;
     }
     .navbar .logos {
@@ -337,6 +338,10 @@ img{
     .home{
         width: 100%;
    }
+   .home:hover .home-ul{
+    transform: translateX(-50%);
+    opacity: 1;
+}
     .navbar{
         padding: 0.5rem 1rem;
     }
@@ -378,10 +383,11 @@ img{
         background-color: var(--var-bg-color);
         border-radius: 5px;
     }
-    .home{
-        position: sticky;
-        top: 0;
-        left: 0;
+    .logos .nav .ul .home{
+        display: flex;
+        position: absolute;
+        top: -135%;
+        right:  0px;
     }
     main{
         padding:2rem 0 0;
