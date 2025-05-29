@@ -101,11 +101,11 @@ body {
     .apropos-page h2{
         font-size: 1.5rem;
         width: 100%;
-        padding: 2rem;
+        padding:0 2rem;
     }
     .apropos-page p{
         width: 100%;
-        padding: 2rem;
+        padding:0 2rem;
         text-align: start;
     }
   

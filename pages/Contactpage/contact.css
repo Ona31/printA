@@ -137,10 +137,11 @@ body {
     }
     .contact-page h2{
         font-size: 1.5rem;
+        padding: 0 2rem;
     }  
     .contact-page p{
         width: 100%;
-        padding: 2rem;
+        padding:0 2rem;
         text-align: start;
     }
     .social-links{
