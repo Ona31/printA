@@ -69,17 +69,16 @@ body {
     padding: 2rem 0;
 }
 .bouton a{
-    text-decoration: none;
+     text-decoration: none;
     color: var(--var-secondary-color);
     font-size: 1rem;
     font-weight: 600;
     padding: 0.9rem 1rem;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 2px solid var(--var-border-color);
     transition: all 0.3s ease-in-out;
+    justify-content: center;
+    display: flex;
 }
 .bouton a:hover{
     color: var(--var-bg-color);
