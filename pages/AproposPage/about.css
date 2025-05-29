@@ -90,7 +90,7 @@ body {
         flex-direction: column;
         gap: 1rem;
         width: 100%;
-        padding:0 2rem;
+        padding: 2rem;
     }
     .apropos-page .pro{
         font-size: 6rem;

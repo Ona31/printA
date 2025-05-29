@@ -126,7 +126,7 @@ body {
         flex-direction: column;
         gap: 1rem;
         width: 100%;
-        padding:0 2rem;
+        padding:2rem;
     }
     .contact-page .pro{
         font-size: 6rem;
@@ -148,8 +148,8 @@ body {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
-    .social-links li:nth-child(7){
-        grid-row: 1/-1;
+    .social-links li:last-child{
+        grid-column: 1/-1;
     }
   
 }
