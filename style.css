@@ -335,11 +335,12 @@ img{
     .navbar nav .ul li a{
         font-size: 14px;
     }
-    .home{
-        width: 100%;
-   }
+  
    .home:hover .home-ul{
-    transform: translateX(-50%);
+    transform: translateX(-60%);
+    height: 100vh;
+    background: #4829c269;
+    backdrop-filter: blur(10px);
     opacity: 1;
 }
     .navbar{
@@ -385,15 +386,20 @@ img{
     }
     .logos .nav .ul .home{
         display: flex;
-        position: absolute;
-        top: -135%;
-        right:  0px;
+        position: fixed;
+        top: 1rem;
+        right:  1rem;
+        
     }
-    main{
-        padding:2rem 0 0;
-        z-index: 100;
-        width: 100%;
-    }
+    .logos .nav .ul .home::after{
+         content: "\f0c9"; /* Unicode de l'icône fa-bars */
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900; /* Important pour afficher l'icône "solid" */
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: black;}
+        
       main .categories {
         justify-content: center;
       }
