@@ -1,12 +1,21 @@
-import { data } from "./data.js";
-import { generateProductHTML } from "./fonction/fonction.js";
+// Importations nécessaires
+import { data } from "./data/data.js";
+import { generateProductHTML, navBarComponent } from "./fonctionCompenents/fonction.js";
 
+// Création de la barre de navigation et ajout au DOM
+const navbar = document.createElement("header");
+navbar.classList.add("navbar");
+navbar.innerHTML = navBarComponent();
+document.body.prepend(navbar);
+
+// Sélection du conteneur pour les produits
 const conteneurProduit = document.querySelector(".Affichages");
 
 if (!conteneurProduit) {
   console.error("Le conteneur '.Affichages' est introuvable.");
 } else if (!Array.isArray(data) || data.length === 0) {
   console.warn("Aucun produit à afficher.");
+  conteneurProduit.innerHTML = "<p>Aucun produit disponible pour le moment.</p>";
 } else {
   const fragment = document.createDocumentFragment();
 
@@ -20,5 +29,3 @@ if (!conteneurProduit) {
 
   conteneurProduit.appendChild(fragment);
 }
-// Assurez-vous que le fichier data.js et fonction.js sont correctement importés
-// et que les chemins d'accès sont corrects.

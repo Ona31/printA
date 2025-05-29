@@ -16,6 +16,11 @@ html{
     --var-border-color:rgba(157, 157, 157, 0.462);
     --var-li-color:rgba(84, 83, 83, 0.756);
 }
+/*-------------------*/
+
+
+
+
 
 /*Corps dela page*/
 /*-------------------*/
@@ -24,9 +29,12 @@ body{
     background-color: var(--var-bg-color);
     font-family: "Poppins",sans-serif;
 }
+/*-------------------*/
+
+
 
 /*Header bar*/
-header{
+.navbar{
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -38,16 +46,22 @@ header{
     box-shadow: 0px 0px 1px rgb(157, 157, 157);
     z-index: 1000;
 }
-header .logos {
+.navbar .logos {
     display: flex;
     gap: 8rem;
 }
-header .logos .logo{
+
+.navbar .logos .logo{
     font-size: 30px;
     font-weight: 900;
     color: var(--var-secondary-color);
+    align-items: center;
 }
-header nav {
+.logo i{
+    color: var(--var-primery-color);
+    font-size: 30px;
+}
+.navbar nav {
     display: flex;
     align-items: center;
 }
@@ -61,6 +75,65 @@ header nav {
     color: var(--var-secondary-color);
     font-weight: 600;
 }
+.logos .nav .ul .home{
+    width: 100px;
+    width: 100px;
+    position: relative;
+    transition: 0.3s ease;
+    gap: 0.5rem;
+     color: var(--var-secondary-color);
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+.home i{
+
+    font-size: 14px;
+    color: var(--var-secondary-color);
+    transition: 0.6s ease;
+}
+.home .home-ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 3%;
+    transform: translateY(-50%);
+    opacity: 0;
+    background-color: var(--var-bg-color);
+    box-shadow: 0px 0px 1px #4729c2;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-top: 0.5rem;
+    z-index: 1000;
+    gap: 1.5rem;
+     transition: 0.6s ease;
+}
+.home:hover .home-ul{
+    transform: translateY(0);
+    opacity: 1;
+}
+.home-ul li a{
+    text-decoration: none;
+    color: var(--var-secondary-color);
+    font-weight: 600;
+    transition: 0.3s ease;
+    
+}   
+.home-ul li a:hover{
+  
+    color: var(--var-li-color);
+   
+    
+} 
+.home:hover i{
+    transform: rotateX(180deg);
+    opacity: 1;
+    color: var(--var-primery-color);
+}
+
+
 header .contact{
     display: flex;
     text-decoration: none;
@@ -79,7 +152,14 @@ header .contact:hover{
     border: 1px solid var(--var-border-color);
     transform: scale(0.99);
 }
+/*-------------------*/
 
+
+
+
+
+
+/*-------------------*/
 /*Main*/
 main{
     display: flex;
@@ -233,19 +313,19 @@ img{
 @media screen and (max-width: 768px){
    
 
-    header{
+    .navbar{
         padding: 0.5rem 1rem;
     }
-    header .logos {
+    .navbar .logos {
         gap: 2rem;
     }
-    header .logos .logo{
+    .navbar .logos .logo{
         font-size: 25px;
     }
-       header nav .ul{
+       .navbar nav .ul{
         gap: 1rem;
     }
-    header .logos nav{
+    .navbar .logos nav{
        position: fixed;
        display: flex;
        bottom: 0;

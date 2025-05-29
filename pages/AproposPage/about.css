@@ -1,0 +1,73 @@
+
+/*Declaration des varable de couleur dans la balise html*/
+html{
+    --var-primery-color:#4729c2;
+    --var-secondary-color:#383838;
+    --var-bg-color:#fafaf9;
+    --var-hover-color:#4829c2f4;
+    --var-border-color:rgba(157, 157, 157, 0.462);
+    --var-li-color:rgba(84, 83, 83, 0.756);
+}
+/*-------------------*/
+/* Corps dela page */
+body {
+  background-color: #fefcff;
+  background-image:
+    linear-gradient(to right, rgba(100, 61, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(100, 61, 255, 0.05) 1px, transparent 1px);
+  background-size: 100px 100px;
+}
+
+
+.apropos-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    flex-direction: column;
+}
+.apropos-page h1{
+    color:var(--var-secondary-color);
+    font-size: 10rem;
+    text-align: center;
+}
+.apropos-page h1 i{
+    color: var(--var-primery-color);
+    font-size: 10rem;
+}
+.apropos-page h2{
+    color: var(--var-secondary-color);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+   
+}
+.apropos-page p{
+    color: var(--var-secondary-color);
+    font-size: 1rem;
+    text-align: center;
+    width: 60%;
+    margin-top: 2rem;
+    width: 65%;
+}
+.bouton{
+    display: flex;
+    gap: 4rem;
+    padding: 2rem 0;
+}
+.bouton a{
+    text-decoration: none;
+    color: var(--var-secondary-color);
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.9rem 1rem;
+    border-radius: 5px;
+    border: 2px solid var(--var-border-color);
+    transition: all 0.3s ease-in-out;
+}
+.bouton a:hover{
+    color: var(--var-bg-color);
+    background-color: var(--var-primery-color);
+    box-shadow: 0 0 10px rgba(71, 41, 194, 0.5);
+}
