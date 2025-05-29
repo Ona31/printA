@@ -36,6 +36,13 @@ body {
     font-size: 10rem;
     text-align: center;
     font-weight: 900;
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid var(--var-border-color);
+    padding: 1rem;
 }
 .apropos-page .pro i{
     color: var(--var-primery-color);
