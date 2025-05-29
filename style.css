@@ -135,7 +135,7 @@ body{
 }
 
 
-header .contact{
+.navbar .contact{
     display: flex;
     text-decoration: none;
     background-color: var(--var-primery-color);
@@ -148,7 +148,7 @@ header .contact{
     gap: 0.5rem;
      box-shadow: 0px 0px 1px rgb(157, 157, 157);
 }
-header .contact:hover{
+.navbar .contact:hover{
     background-color: var(--var-hover-color);
     border: 1px solid var(--var-border-color);
     transform: scale(0.99);
@@ -312,7 +312,7 @@ img{
 /*media query*/
 
 @media screen and (max-width: 768px){
-   header .contact{
+   .navbar .contact{
     display: none;
    }
     .navbar{
