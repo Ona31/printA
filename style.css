@@ -327,6 +327,7 @@ img{
     }
     .navbar .logos .logo{
         font-size: 20px;
+        font-weight: 900;
     }
     .navbar nav .ul{
         flex-direction: column;
