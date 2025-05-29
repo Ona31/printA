@@ -101,7 +101,9 @@ body {
   flex-wrap: wrap;
   gap: 2rem;
 }
-
+ .social-links li{
+    display: flex;
+ }
 .social-links li a {
   text-decoration: none;
   color: #333;
