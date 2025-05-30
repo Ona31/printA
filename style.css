@@ -339,8 +339,7 @@ img{
   
    .home:hover .home-ul{
     transform: translateX(-60%);
-    height: 100vh;
-    background: #4829c269;
+    background: #00000069;
     backdrop-filter: blur(10px);
     opacity: 1;
 }
