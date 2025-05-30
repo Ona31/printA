@@ -341,6 +341,7 @@ img{
     transform: translateX(-60%);
     background: #00000069;
     backdrop-filter: blur(10px);
+    height: auto;
     opacity: 1;
 }
     .navbar{
