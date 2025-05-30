@@ -57,8 +57,8 @@ export function navBarComponent() {
               <li><a href="${prefix}index.html">Accueil</a></li>
               <li><a href="${prefix}pages/AproposPage/about.html">À propos</a></li>
               <li><a href="${prefix}pages/Contactpage/contact.html">Contact</a></li>
-              <li><a href="${prefix}pages/TermsPage/terms.html">Termes et conditions</a></li>
-              <li><a href="${prefix}pages/PrivacyPage/privacy.html">Politique de confidentialité</a></li>
+             
+             
             </ul>
           </li>
         </ul>

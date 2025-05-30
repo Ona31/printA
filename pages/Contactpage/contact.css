@@ -150,8 +150,5 @@ body {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
-    .social-links li:last-child{
-        grid-row: 1/-1;
-    }
   
 }
